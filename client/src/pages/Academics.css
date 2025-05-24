@@ -1,0 +1,130 @@
+/* Academics.css */
+
+.academics-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  background-color: #000;
+  padding: 80px 0 10px 0;
+}
+
+.academics-page h1{
+  text-align: center;
+  color: #e77a00;
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+
+.academics-page .section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.academics-page .black-bg {
+  background-color: #111;
+}
+
+.academics-page .dark-bg {
+  background-color: #1a1a1a;
+}
+
+.academics-page .section-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #e77a00;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.academics-page .content-block {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.academics-page .sub-section {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.academics-page .sub-section li {
+  background-color: #222;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.academics-page .sub-section li:hover {
+  background-color: #333;
+}
+
+.academics-page .content-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.academics-page img {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  display: block;
+}
+
+/* ======================
+   Responsive Enhancements
+========================= */
+@media (max-width: 992px) {
+  .academics-page h1,
+  .academics-page .section-title {
+    font-size: 2rem;
+  }
+
+  .academics-page .section {
+    padding: 40px 20px;
+  }
+
+  .academics-page .content-text {
+    padding: 18px;
+    font-size: 1.05rem;
+  }
+
+  .academics-page .sub-section li {
+    font-size: 0.95rem;
+    padding: 12px 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .academics-page {
+    padding-top: 60px;
+  }
+
+  .academics-page h1,
+  .academics-page .section-title {
+    font-size: 1.6rem;
+  }
+
+  .academics-page .section {
+    padding: 30px 15px;
+  }
+
+  .academics-page .content-text {
+    padding: 15px;
+    font-size: 1rem;
+  }
+
+  .academics-page .sub-section li {
+    padding: 10px 14px;
+    font-size: 0.9rem;
+  }
+
+  .academics-page img {
+    margin: 20px auto;
+  }
+}

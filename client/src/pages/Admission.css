@@ -1,0 +1,89 @@
+.admission-container {
+
+  padding: 60px 40px 40px 60px;
+  background: #000;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  animation: fadeIn 1s ease-in-out;
+
+  box-shadow: 0 0 10px rgba(255,255,255,0.05);
+}
+
+.admission-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #e77a00;
+  margin-bottom: 20px;
+}
+
+.admission-intro {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  text-align: justify;
+  color: #dddddd;
+  padding: 0 10px;
+}
+
+.admission-section {
+  margin: 20px 0;
+  padding: 20px;
+  background: #111111;
+  border-left: 5px solid #e77a00;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(255,255,255,0.05);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.admission-section:hover {
+  background-color: #1a1a1a;
+  transform: translateY(-2px);
+}
+
+.admission-section h2 {
+  color: #e77a00;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.admission-section ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.admission-section li {
+  margin-bottom: 10px;
+  color: #e0e0e0;
+}
+
+.note {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #aaa;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+  .admission-title {
+    font-size: 1.8rem;
+  }
+
+  .admission-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .admission-container {
+    padding: 30px 20px;
+  }
+
+  .admission-section {
+    padding: 15px;
+  }
+}
+

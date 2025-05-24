@@ -1,0 +1,37 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# echo "# YBM-International-Site" >> README.md
+# git init
+# git add README.md
+# git commit -m "first commit"
+# git branch -M main
+# git remote add origin https://github.com/Rashmi-Gangwar/YBM-International-Site.git
+# git push -u origin main
+
+# …or push an existing repository from the command line
+# git remote add origin https://github.com/Rashmi-Gangwar/YBM-International-Site.git
+# git branch -M main
+# git push -u origin main

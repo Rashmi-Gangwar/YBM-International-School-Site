@@ -1,0 +1,100 @@
+.news-events {
+  background-color: black;
+  color: white;
+  padding: 60px 30px; /* Added more padding for overall layout */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 50px;
+  color: #e77a00;
+  padding: 10px;
+}
+
+.month-section {
+  margin-bottom: 50px;
+  padding: 10px 0;
+}
+
+.month {
+  font-size: 1.8rem;
+  margin: 20px 0 25px;
+  color: #e77a00;
+  text-align: center;
+  padding: 5px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.event-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding-bottom: 10px;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.event-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.event-info {
+  padding: 18px;
+}
+
+.event-info h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  color: #e77a00;
+}
+
+.event-info p {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .month {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .event-card {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .event-info {
+    padding: 15px;
+  }
+
+  .event-info h3 {
+    font-size: 1.1rem;
+  }
+
+  .event-info p {
+    font-size: 0.95rem;
+  }
+}
